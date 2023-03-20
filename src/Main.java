@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1_3();
         task4_5();
+        task6_8();
     }
 
     public static void task1_3() {
@@ -50,6 +51,29 @@ public class Main {
         frog /= 3.5;
         System.out.println("Значение переменной frog / 3.5 - " + frog);
         frog += 4;
-        System.out.println("Значение переменной frog + 4 - " + frog);
+        System.out.println("Значение переменной frog + 4 - " + frog + "\n");
+    }
+
+    public static void task6_8() {
+        //Задание 6
+        var boxerFirst = 78.2;
+        var boxerSecond = 82.7;
+        System.out.println("Первый боксер весит - " + boxerFirst + "\nВторой боксер весит - " + boxerSecond);
+        var summWeight = boxerFirst + boxerSecond;
+        System.out.println("Общий вес боксеров - " + summWeight);
+        var diffWeight = boxerSecond - boxerFirst;
+        System.out.println("Разница в весе боксеров - " + diffWeight + "\n");
+
+        //Задание 7
+        System.out.println("Вычитание - " + (boxerSecond - boxerFirst));
+        System.out.println("Остаток от деления - " + (boxerSecond % boxerFirst) + "\n");
+
+        //Задание 8
+        var hours = 640;
+        var limit = 8;
+        var people = hours / limit;
+        System.out.println("Всего работников в компании - " + people + " человек");
+        people += 94;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + people * limit + " часов работы может быть поделено между сотрудниками");
     }
 }
