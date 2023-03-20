@@ -18,5 +18,10 @@ public class Main {
         dog = dog + 4;
         cat = cat + 4;
         paper = paper + 4;
+
+        // Задача 3
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
     }
 }
